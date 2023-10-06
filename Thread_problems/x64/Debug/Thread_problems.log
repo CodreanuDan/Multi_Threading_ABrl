@@ -1,0 +1,6 @@
+﻿  Thread_problems.cpp
+C:\Users\user\source\repos\Thread_problems\ThreadPool.h(17,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Thread_problems\Thread_problems.cpp(106,21): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\user\source\repos\Thread_problems\Thread_problems.cpp(142,29): warning C4018: '<': signed/unsigned mismatch
+C:\Users\user\source\repos\Thread_problems\Thread_problems.cpp(144,34): warning C4018: '<': signed/unsigned mismatch
+  Thread_problems.vcxproj -> C:\Users\user\source\repos\Thread_problems\x64\Debug\Thread_problems.exe

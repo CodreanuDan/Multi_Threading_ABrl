@@ -14,7 +14,37 @@
 #include "BinaryTree.h"
 #include "Model.h"
 
-class Zoaie{};//kkkkkkkkkkkk PLM COIE clasa z mortii lui mai modific ceva
+/* cine modifica aici fara sa ma intrebe masa practica o meserie care nu este din domeniul IT :p */
+class Zoaie{
+
+	/* daca nu iei bere*/
+	void ia_bere
+	{
+		fwprintf("ia bere");
+	}
+	/* andrei variabila invariabla */
+	if (char andrei == bou)
+	{
+		int cnt = 0;
+		for (bere = null; bere < int size_of_frifider; bere--)
+		{
+			cnt++;
+			/* dan = variabila primara , vatzi prins ca e primar gen pe nicolinna lidl*/
+			andrei = dan + bere;
+
+			if (cnt == 16)
+			{
+				return HEX(float nr_beri = andrei + bere * 4.56);
+				bere->insert(frigider[cnt]);
+			}
+			else
+			{
+				bere = 0;
+				ia_bere();
+			}
+		}
+	}
+};//kkkkkkkkkkkk PLM COIE clasa z mortii lui mai
 void listTest()
 {
 	LikedList* list = new LikedList();

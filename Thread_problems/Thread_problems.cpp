@@ -7,12 +7,76 @@
 #include <unordered_map>
 #include <functional>
 #include <chrono>
-
+#include <vector>
 #include "Loader.h"
 #include "ThreadPool.h"
 #include "LinkedList.h"
 #include "BinaryTree.h"
 #include "Model.h"
+
+#define MAX_BETIVI 8
+
+int timp = 10;
+
+std::string betivii[MAX_BETIVI];
+
+class Fridge
+{
+private:
+	std::vector<std::string> saracia_SALCIILOR;
+public:
+	void add(std::string alimente_bazatBere)
+	{
+		saracia_SALCIILOR.push_back(alimente_bazatBere);
+	}
+
+	void consuma(std::string aliment_Bere)
+	{
+		for (int bereaDinFrigider = 0; bereaDinFrigider < saracia_SALCIILOR.size(); bereaDinFrigider++)
+		{
+			if (saracia_SALCIILOR[bereaDinFrigider] == aliment_Bere)
+			{
+				saracia_SALCIILOR[bereaDinFrigider] = "E GOAlA COAIE MINUS O IESIRE CU BAIETII";
+			}
+		}
+	}
+};
+
+class BeerPZDMS_City_Fridge
+{
+private:
+	std::string locatia_PLii = "LA CURTE BA";
+public:
+	void alegeINPLM_undeBEI(std::string acas_afar)
+	{
+		if (acas_afar == locatia_PLii)
+			std::cout << "Bv ba pula azi se iese";
+		else
+			std::cout << "Vai de pl noastra iesim maine";
+
+		if (timp > 18 && timp < 24)
+			std::cout << std::endl << "Bun ca mergem";
+		else
+			std::cout << "Nu i ora korekta de berue";
+	}
+
+	std::string vedem_cine_iese(int i)
+	{
+		if (betivii[i] == "Nosferat")
+		{
+			std::cout << "S-a spalat pe cap in plm si pleaca in centru, jet acas";
+			return;
+		}
+
+		if (i > MAX_BETIVI)
+		{
+			std::cout << "prea multi boscai";
+			return;
+		}
+		else
+			return vedem_cine_iese(++i);
+	}
+};
 
 /* cine modifica aici fara sa ma intrebe masa practica o meserie care nu este din domeniul IT :p */
 class Zoaie{

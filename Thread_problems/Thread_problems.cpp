@@ -14,7 +14,7 @@
 #include "BinaryTree.h"
 #include "Model.h"
 
-
+class B{};
 void listTest()
 {
 	LikedList* list = new LikedList();

@@ -14,7 +14,7 @@
 #include "BinaryTree.h"
 #include "Model.h"
 
-class A{};//kkkkkkkkkkkk PLM COIE
+class Zoaie{};//kkkkkkkkkkkk PLM COIE clasa z mortii lui 
 void listTest()
 {
 	LikedList* list = new LikedList();

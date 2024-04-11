@@ -15,7 +15,7 @@
 #include "Model.h"
 
 #define MAX_BETIVI 8
-
+/////
 int timp = 10;
 
 std::string betivii[MAX_BETIVI];
